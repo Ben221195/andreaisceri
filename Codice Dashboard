@@ -1,0 +1,30 @@
+Codice Dashboard:
+La dashboard è stata creata con Genially e incorporata con HTML standard tramite Iframe.
+
+<iframe
+  src="https://view.genially.com/6865c3dcf2767d869c6a0882"
+  width="1000"
+  height="600"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+
+
+
+Questo  è un esempio di codice utilizzato per la creazione di una Dashboard simile a quella di Genially: 
+// Esempio: rappresentazione astratta di una dashboard interattiva
+public class Dashboard {
+    private List<Chart> charts;
+
+    public Dashboard() {
+        charts = new ArrayList<>();
+        charts.add(new PieChart("Distribuzione vendite", data1));
+        charts.add(new BarChart("Performance settimanale", data2));
+    }
+
+    public void render() {
+        for (Chart chart : charts) {
+            chart.draw();
+        }
+    }
+}
