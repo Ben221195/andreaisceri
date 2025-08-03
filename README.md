@@ -29,9 +29,11 @@ https://view.genially.com/6865c3dcf2767d869c6a0882/interactive-content-basic-int
 Agricoltura di precisione: In questo settore, si utilizzano informazioni e analisi del
 tempo per prevedere le condizioni difficili, migliorando così i tempi per piantare e
 raccogliere.
+
 Gestione delle risorse: Comporta una gestione efficace delle risorse tramite approcci
 sostenibili che siano anche vantaggiosi dal punto di vista economico, utilizzando
 strumenti come cruscotti per supportare le decisioni.
+
 Adattamento delle colture: Si fonda sull'adeguamento ai cambiamenti climatici per
 migliorare la salute del suolo e aumentare la produzione dei raccolti.
 
