@@ -1,0 +1,101 @@
+Esempio codice dashboard simile a quella di Genially:
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard Interattiva</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      background-color: #e6e6e6;
+      padding: 1rem;
+    }
+    nav button {
+      padding: 0.5rem 1rem;
+      border: none;
+      background-color: #007acc;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    nav button:hover {
+      background-color: #005fa3;
+    }
+    .content {
+      display: none;
+      padding: 2rem;
+    }
+    .content.active {
+      display: block;
+    }
+    .card {
+      background-color: white;
+      padding: 1rem;
+      margin-top: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dashboard Interattiva</h1>
+  </header>
+
+  <nav>
+    <button onclick="showSection('users')">Utenti</button>
+    <button onclick="showSection('stats')">Statistiche</button>
+    <button onclick="showSection('reports')">Report</button>
+  </nav>
+
+  <main>
+    <section id="users" class="content active">
+      <div class="card">
+        <h2>Gestione Utenti</h2>
+        <p>Visualizza e modifica le informazioni degli utenti registrati.</p>
+      </div>
+    </section>
+
+    <section id="stats" class="content">
+      <div class="card">
+        <h2>Statistiche</h2>
+        <p>Analisi dei dati raccolti negli ultimi 30 giorni.</p>
+      </div>
+    </section>
+
+    <section id="reports" class="content">
+      <div class="card">
+        <h2>Report</h2>
+        <p>Genera report dettagliati in formato PDF o Excel.</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Funzione per mostrare solo la sezione cliccata
+    function showSection(id) {
+      const sections = document.querySelectorAll('.content');
+      sections.forEach(section => {
+        section.classList.remove('active');
+      });
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
