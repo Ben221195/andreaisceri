@@ -1,1 +1,10 @@
+La dashboard è stata creata con Genially e incorporata tramite HTML Standard tramite iframe:
 
+
+<iframe
+  src="https://view.genially.com/6865c3dcf2767d869c6a0882"
+  width="1000"
+  height="600"
+  frameborder="0"
+  allowfullscreen
+></iframe>
